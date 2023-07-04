@@ -1,0 +1,14 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+edition = "2021"
+authors = ["WASM Company Developers <support@wasmcompany.com>"]
+description = "A simple WASM module"
+license = "MIT"
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"
